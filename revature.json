@@ -1,0 +1,35 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/Search2dArrayTest.java",
+      "testCases": [
+        {
+          "methodName": "searchTest1",
+          "label": "Finds existing target in 2D array",
+          "description": "Verifies that the search method returns true when the value 2 exists within the given 2D array."
+        },
+        {
+          "methodName": "searchTest2",
+          "label": "Validates 2D array search behavior",
+          "description": "Verifies search logic when the value 5 exists within the given 2D array."
+        },
+        {
+          "methodName": "searchTest3",
+          "label": "Validates 2D array search behavior",
+          "description": "Verifies search logic when the value 8 exists within the given 2D array."
+        },
+        {
+          "methodName": "searchTest4",
+          "label": "Returns false when target is absent",
+          "description": "Checks that search returns false when the value 0 does not appear in the given 2D array."
+        },
+        {
+          "methodName": "searchTest5",
+          "label": "Returns false when target is absent",
+          "description": "Checks that search returns false when the value 10 does not appear in the given 2D array."
+        }
+      ]
+    }
+  ]
+}
